@@ -33,7 +33,7 @@ return [
     |
     */
     
-    $DATABASE_URL = parse_url(“postgres://rbrwbrytmpaexo:31055483d3eb5c8c97d91cb6387de52448a280cb3a4a6ec598c2e23f2f89e871@ec2-54-243-208-234.compute-1.amazonaws.com:5432/d3lesf6ccojikh”).
+    $DATABASE_URL = parse_url(“postgres://rbrwbrytmpaexo:31055483d3eb5c8c97d91cb6387de52448a280cb3a4a6ec598c2e23f2f89e871@ec2-54-243-208-234.compute-1.amazonaws.com:5432/d3lesf6ccojikh”);
 
     'connections' => [
 
