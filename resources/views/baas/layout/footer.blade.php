@@ -217,7 +217,7 @@
 	<script type="text/javascript" src="{{ secure_asset('lib/lightgallery/modules/lg-share.min.js') }}"></script>
 	<script type="text/javascript" src="{{ secure_asset('lib/lightgallery/modules/lg-thumbnail.min.js') }}"></script>
 	<script type="text/javascript" src="{{ secure_asset('lib/lightgallery/modules/lg-fullscreen.min.js') }}"></script>
-	<script type="text/javascript" src="{{ secure_asset(lib/lightgallery/modules/lg-zoom.min.js') }}"></script>
+	<script type="text/javascript" src="{{ secure_asset('lib/lightgallery/modules/lg-zoom.min.js') }}"></script>
 	<!-- bootstrap4-js -->
 	<script type="text/javascript" src="{{ secure_asset('lib/bootstrap-4.3.1/js/bootstrap.min.js') }}"></script>
 	<!---video popup simple overplay -->
