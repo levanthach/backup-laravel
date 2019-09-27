@@ -3,7 +3,7 @@
 	<title> Baas | Backup as a service </title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">  
-	<base href="/">
+	<base href="https://backupservices.herokuapp.com/">
 	<link rel="icon" type="text/css" href="{{ secure_asset('img/site_icon.png') }}">
 	<!-- bootstrap 4 -->
 	<link rel="stylesheet" href="{{ secure_asset'lib/bootstrap-4.3.1/css/bootstrap.min.css') }}">
