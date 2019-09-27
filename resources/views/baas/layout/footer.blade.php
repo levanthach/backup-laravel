@@ -212,7 +212,7 @@
 	<!-- lightgallery -->
 	<script type="text/javascript" src="{{ secure_asset('lib/lightgallery/dist/js/lightgallery.min.js') }}"></script>
 	<!-- A jQuery plugin that adds cross-browser mouse wheel support. (Optional) -->
-	<script src="{{ asset('lib/lightgallery/lib/jquery.mousewheel.min.js') }}"></script>
+	<script src="{{ secure_asset('lib/lightgallery/lib/jquery.mousewheel.min.js') }}"></script>
 	<!-- lightgallery plugins -->
 	<script type="text/javascript" src="{{ secure_asset('lib/lightgallery/modules/lg-share.min.js') }}"></script>
 	<script type="text/javascript" src="{{ secure_asset('lib/lightgallery/modules/lg-thumbnail.min.js') }}"></script>
@@ -223,7 +223,7 @@
 	<!---video popup simple overplay -->
 	<script type="text/javascript" src="{{ secure_asset('lib/simple-overplay/simple-overlay.js') }}"></script>
 	<!-- owl-carousel-js -->
-	<script type="text/javascript" src="{{ secure_asset('lib/owl-carousel/dist/owl.carousel.min.js')}}"></script>
+	<script type="text/javascript" src="{{ secure_asset('lib/owl-carousel/dist/owl.carousel.min.js') }}"></script>
 	@if (Route::currentRouteName() == 'trang-chu')
 		<script type="text/javascript" src="{{ secure_asset('lib/circle-slider/jCircle.min.js') }}"></script>
 	@endif
