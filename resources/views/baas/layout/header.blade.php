@@ -6,7 +6,7 @@
 	<base href="https://backupservices.herokuapp.com/">
 	<link rel="icon" type="text/css" href="{{ secure_asset('img/site_icon.png') }}">
 	<!-- bootstrap 4 -->
-	<link rel="stylesheet" href="{{ secure_asset'lib/bootstrap-4.3.1/css/bootstrap.min.css') }}">
+	<link rel="stylesheet" href="{{ secure_asset('lib/bootstrap-4.3.1/css/bootstrap.min.css') }}">
 	<!-- menu-horizontal	 -->
 	<link rel="stylesheet" type="text/css" href="{{ secure_asset('lib/menu-horizontal/menu-horizontal.css') }}">
 	<!-- animate css -->
