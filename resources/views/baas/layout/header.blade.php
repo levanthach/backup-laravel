@@ -18,7 +18,7 @@
 	<link rel="stylesheet" type="text/css" href="{{ secure_asset('lib/font-awesome/font-awesome.min.css') }}">
 	<link rel="stylesheet" type="text/css" href="{{ secure_asset('lib/font-awesome/fontawesome-pro/css/all.css') }}">
 	@if (Route::currentRouteName() == 'trang-chu')
-		<link rel="stylesheet" type="text/css" href="{{ secure_asset'lib/circle-slider/jCircle.css') }}">
+		<link rel="stylesheet" type="text/css" href="{{ secure_asset('lib/circle-slider/jCircle.css') }}">
 	@endif
 	<!-- font-awesome pro -->
 	<link rel="stylesheet" type="text/css" href="{{ secure_asset('lib/fonts/Roboto/roboto.css') }}">
