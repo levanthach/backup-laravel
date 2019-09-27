@@ -3,39 +3,39 @@
 	<title> Baas | Backup as a service </title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">  
-	<base href="http://localhost:8888/backup/public/">
-	<link rel="icon" type="text/css" href="{{ asset('img/site_icon.png') }}">
+	<base href="/">
+	<link rel="icon" type="text/css" href="{{ secure_asset('img/site_icon.png') }}">
 	<!-- bootstrap 4 -->
-	<link rel="stylesheet" href="{{ asset('lib/bootstrap-4.3.1/css/bootstrap.min.css') }}">
+	<link rel="stylesheet" href="{{ secure_asset'lib/bootstrap-4.3.1/css/bootstrap.min.css') }}">
 	<!-- menu-horizontal	 -->
-	<link rel="stylesheet" type="text/css" href="{{ asset('lib/menu-horizontal/menu-horizontal.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ secure_asset('lib/menu-horizontal/menu-horizontal.css') }}">
 	<!-- animate css -->
-	<link rel="stylesheet" type="text/css" href="{{ asset('lib/animate/animate.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ secure_asset('lib/animate/animate.css') }}">
 	<!-- owl-carousel -->
-	<link rel="stylesheet" type="text/css" href="{{ asset('lib/owl-carousel/dist/assets/owl.carousel.min.css') }}">
-	<link rel="stylesheet" type="text/css" href="{{ asset('lib/owl-carousel/dist/assets/owl.theme.default.min.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ secure_asset('lib/owl-carousel/dist/assets/owl.carousel.min.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ secure_asset('lib/owl-carousel/dist/assets/owl.theme.default.min.css') }}">
 	<!-- font-awesome -->
-	<link rel="stylesheet" type="text/css" href="{{ asset('lib/font-awesome/font-awesome.min.css') }}">
-	<link rel="stylesheet" type="text/css" href="{{ asset('lib/font-awesome/fontawesome-pro/css/all.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ secure_asset('lib/font-awesome/font-awesome.min.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ secure_asset('lib/font-awesome/fontawesome-pro/css/all.css') }}">
 	@if (Route::currentRouteName() == 'trang-chu')
-		<link rel="stylesheet" type="text/css" href="{{ asset('lib/circle-slider/jCircle.css') }}">
+		<link rel="stylesheet" type="text/css" href="{{ secure_asset'lib/circle-slider/jCircle.css') }}">
 	@endif
 	<!-- font-awesome pro -->
-	<link rel="stylesheet" type="text/css" href="{{ asset('lib/fonts/Roboto/roboto.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ secure_asset('lib/fonts/Roboto/roboto.css') }}">
 	<!-- Poppins font -->
-	<link href="{{ asset('lib/fonts/poppins/poppins.css') }}" rel="stylesheet">
+	<link href="{{ secure_asset('lib/fonts/poppins/poppins.css') }}" rel="stylesheet">
 	<!-- Open san font -->
-	<link href="{{ asset('lib/fonts/open-san/open-san.css') }}" rel="stylesheet">
+	<link href="{{ secure_asset('lib/fonts/open-san/open-san.css') }}" rel="stylesheet">
 	<!-- animate css -->
-	<link rel="stylesheet" type="text/css" href="{{ asset('lib/animate/animate.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ secure_asset('lib/animate/animate.css') }}">
 	<!-- popup-lightbox-img -->
-	<link rel="stylesheet" type="text/css" href="{{ asset('lib/lightgallery/dist/css/lightgallery.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ secure_asset('lib/lightgallery/dist/css/lightgallery.css') }}">
 	<!-- Video popup simple overplay-->
-	<link rel="stylesheet" type="text/css" href="{{ asset('lib/simple-overplay/simple-overlay.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ secure_asset('lib/simple-overplay/simple-overlay.css') }}">
 	<!-- Style.css -->
-	<link rel="stylesheet" href="{{ asset('sass/css/style.css') }}">
+	<link rel="stylesheet" href="{{ secure_asset('sass/css/style.css') }}">
 	@if (Route::currentRouteName() != 'trang-chu')
-		<link rel="stylesheet" href="{{ asset('sass/css/style__single.css') }}">
+		<link rel="stylesheet" href="{{ secure_asset('sass/css/style__single.css') }}">
 	@endif
 </head>
 <body class="preloading">
