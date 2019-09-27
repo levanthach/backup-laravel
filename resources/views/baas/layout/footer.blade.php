@@ -204,32 +204,32 @@
 	</div> <!-- end wrapper -->
 </body>
     <!-- Import Jquery -->
-	<script type="text/javascript" src="{{ asset('lib/jquery/jquery-3.4.1.min.js') }}"></script>
+	<script type="text/javascript" src="{{ secure_asset('lib/jquery/jquery-3.4.1.min.js') }}"></script>
 	<!-- menu-horizontal -->
-	<script type="text/javascript" src="{{ asset('lib/menu-horizontal/menu-horizontal.js') }}"></script>
+	<script type="text/javascript" src="{{ secure_asset('lib/menu-horizontal/menu-horizontal.js') }}"></script>
 	<!-- wowjs -->
-	<script type="text/javascript" src="{{ asset('lib/wowjs/wow.min.js') }}"></script>
+	<script type="text/javascript" src="{{ secure_asset('lib/wowjs/wow.min.js') }}"></script>
 	<!-- lightgallery -->
-	<script type="text/javascript" src="{{ asset('lib/lightgallery/dist/js/lightgallery.min.js') }}"></script>
+	<script type="text/javascript" src="{{ secure_asset('lib/lightgallery/dist/js/lightgallery.min.js') }}"></script>
 	<!-- A jQuery plugin that adds cross-browser mouse wheel support. (Optional) -->
 	<script src="{{ asset('lib/lightgallery/lib/jquery.mousewheel.min.js') }}"></script>
 	<!-- lightgallery plugins -->
-	<script type="text/javascript" src="{{ asset('lib/lightgallery/modules/lg-share.min.js') }}"></script>
-	<script type="text/javascript" src="{{ asset('lib/lightgallery/modules/lg-thumbnail.min.js') }}"></script>
-	<script type="text/javascript" src="{{ asset('lib/lightgallery/modules/lg-fullscreen.min.js') }}"></script>
-	<script type="text/javascript" src="{{ asset('lib/lightgallery/modules/lg-zoom.min.js') }}"></script>
+	<script type="text/javascript" src="{{ secure_asset('lib/lightgallery/modules/lg-share.min.js') }}"></script>
+	<script type="text/javascript" src="{{ secure_asset('lib/lightgallery/modules/lg-thumbnail.min.js') }}"></script>
+	<script type="text/javascript" src="{{ secure_asset('lib/lightgallery/modules/lg-fullscreen.min.js') }}"></script>
+	<script type="text/javascript" src="{{ secure_asset(lib/lightgallery/modules/lg-zoom.min.js') }}"></script>
 	<!-- bootstrap4-js -->
-	<script type="text/javascript" src="{{ asset('lib/bootstrap-4.3.1/js/bootstrap.min.js') }}"></script>
+	<script type="text/javascript" src="{{ secure_asset('lib/bootstrap-4.3.1/js/bootstrap.min.js') }}"></script>
 	<!---video popup simple overplay -->
-	<script type="text/javascript" src="{{ asset('lib/simple-overplay/simple-overlay.js') }}"></script>
+	<script type="text/javascript" src="{{ secure_asset('lib/simple-overplay/simple-overlay.js') }}"></script>
 	<!-- owl-carousel-js -->
-	<script type="text/javascript" src="{{ asset('lib/owl-carousel/dist/owl.carousel.min.js')}}"></script>
+	<script type="text/javascript" src="{{ secure_asset('lib/owl-carousel/dist/owl.carousel.min.js')}}"></script>
 	@if (Route::currentRouteName() == 'trang-chu')
-		<script type="text/javascript" src="{{ asset('lib/circle-slider/jCircle.min.js') }}"></script>
+		<script type="text/javascript" src="{{ secure_asset('lib/circle-slider/jCircle.min.js') }}"></script>
 	@endif
 	<!-- typejs -->
 	@if (Route::currentRouteName() == 'trang-chu')
-		<script type="text/javascript" src="{{ asset('lib/typejs/typed.js') }}"></script>
+		<script type="text/javascript" src="{{ secure_asset('lib/typejs/typed.js') }}"></script>
 		<script>
 	    var circle=new jCircle({
 	      'container': 'circles-container',
@@ -248,5 +248,5 @@
 	@endif
 
 	<!-- Style.js -->
-	<script type="text/javascript" src="{{ asset('js/style.js') }}"></script>
+	<script type="text/javascript" src="{{ secure_asset('js/style.js') }}"></script>
 </html>
